@@ -1,5 +1,5 @@
 ---
-import heroImage from '@assets/images/hero.png';
+import headshot from '@assets/images/headshot.png';
 import Button from '@components/ui/Button.astro';
 import { Image } from 'astro:assets';
 ---
@@ -11,8 +11,8 @@ import { Image } from 'astro:assets';
 	<div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
 		<div>
 			<h1 class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl">
-				Hi! My name is <span class="text-orange">Jane Doe</span> and I am a web developer based in New
-				York.
+				Hi! My name is <span class="text-orange">Sarah Fedorchak</span> and I am a third year student at The University of
+				Texas at Austin.
 			</h1>
 		</div>
 		<div class="mb-10">
@@ -21,7 +21,7 @@ import { Image } from 'astro:assets';
 	</div>
 	<div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
 		<Image
-			src={heroImage}
+			src={headshot}
 			alt="Coding girl"
 			format="png"
 			width={600}
