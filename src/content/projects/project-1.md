@@ -1,8 +1,8 @@
 ---
 inProgress: false
-title: Project title
-description: Project description
+title: PlanIt Green
+description: App that allows users to easily plan out a sustainable, at-home garden
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://youtube.com/shorts/18dFZepTFEs
+tags: ['Python', 'React', 'CSS', 'Firebase' ]
 ---
